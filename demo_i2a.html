@@ -1,0 +1,157 @@
+<html>
+  <head>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" -->
+    <!-- integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+    <link
+      href="http://fonts.googleapis.com/css?family=Lato:300,400,900"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <!--fonts google-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,300,500,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <script src="./i2a_script.js"></script>
+
+    <title>Connecting Multi-modal Contrastive Representations</title>
+  </head>
+  <body>
+    <div id="header" class="container-fluid">
+      <div class="row" style="text-align: center">
+        <h1 class="head">Connecting Multi-modal Contrastive Representations</h1>
+        <div class="authors">Anonymous Author(s)</div>
+      </div>
+      <div class="bigcontainer">
+        <div class="container" id="abstractdiv">
+          <div class="line">
+            <div class="right">
+              <a href="./index.html"
+                ><button class="selected">Comparisons</button></a
+              >
+              <a href="./more_example_a2i.html"
+                ><button class="unselected">More Examples</button></a
+              >
+            </div>
+          </div>
+          <div class="guideme">
+            Select a Task
+            <div style="color: black; font-size: 20px; font-weight: 400"></div>
+          </div>
+          <a href="./index.html"
+            ><button class="little_unselected">
+              Audio to Image Retrieval
+            </button></a
+          >
+          <a href="./demo_i2a.html"
+            ><button class="little_selected">
+              Image to Audio Retrieval
+            </button></a
+          >
+          <a href="./AV_source_locolization.html"
+            ><button class="little_unselected">
+              Audio-Visual Source Locolization
+            </button></a
+          >
+
+          <div class="guideme">
+            Select an Image
+            <div style="color: black; font-size: 20px; font-weight: 400">
+              (click image)
+            </div>
+          </div>
+
+          <table class="table table-responsive">
+            <tbody>
+              <div class="ImageIcon">
+                <div class="text-center imagegroup">
+                  <img src="./i2a/images/img1.jpg" id="audio1" />
+                </div>
+
+                <div class="text-center imagegroup">
+                  <img src="./i2a/images/img2.jpg" id="audio2" />
+                </div>
+
+                <div class="text-center imagegroup">
+                  <img src="./i2a/images/img3.jpg" id="audio3" />
+                </div>
+
+                <div class="text-center imagegroup">
+                  <img src="./i2a/images/img4.jpg" id="audio4" />
+                </div>
+
+                <div class="text-center imagegroup">
+                  <img src="./i2a/images/img5.jpg" id="audio5" />
+                </div>
+
+                <div class="text-center imagegroup">
+                  <img src="./i2a/images/img6.jpg" id="audio6" />
+                </div>
+
+                <div class="text-center imagegroup">
+                  <img src="./i2a/images/img7.jpg" id="audio7" />
+                </div>
+
+                <div class="text-center imagegroup">
+                  <img src="./i2a/images/img8.jpg" id="audio8" />
+                </div>
+
+                <div class="text-center imagegroup">
+                  <img src="./i2a/images/img9.jpg" id="audio9" />
+                </div>
+              </div>
+
+              <div class="guideme">See the Results</div>
+              <div style="padding-top: 0px">
+                <h3 id="Ours"></h3>
+                <audio style="width: 285px" class="audio">
+                  <source src="" type="audio/mpeg" />
+                </audio>
+                <audio style="width: 285px" class="audio">
+                  <source src="" type="audio/mpeg" />
+                </audio>
+                <audio style="width: 285px" class="audio">
+                  <source src="" type="audio/mpeg" />
+                </audio>
+              </div>
+
+              <div>
+                <h3 id="AudioCLIP"></h3>
+                <audio style="width: 285px" class="audio">
+                  <source src="" type="audio/mpeg" />
+                </audio>
+                <audio style="width: 285px" class="audio">
+                  <source src="" type="audio/mpeg" />
+                </audio>
+                <audio style="width: 285px" class="audio">
+                  <source src="" type="audio/mpeg" />
+                </audio>
+              </div>
+
+              <div>
+                <h3 id="WAV2CLIP"></h3>
+                <audio style="width: 285px" class="audio">
+                  <source src="" type="audio/mpeg" />
+                </audio>
+                <audio style="width: 285px" class="audio">
+                  <source src="" type="audio/mpeg" />
+                </audio>
+                <audio style="width: 285px" class="audio">
+                  <source src="" type="audio/mpeg" />
+                </audio>
+              </div>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

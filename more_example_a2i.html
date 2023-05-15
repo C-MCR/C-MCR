@@ -1,0 +1,301 @@
+
+<html>
+    <head>
+    
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,900' rel='stylesheet' type='text/css'>
+    <link href="style.css" rel="stylesheet">
+    <!--fonts google-->
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+
+    
+   
+</head>
+<body>
+    <div id="header" class="container-fluid">
+      <div class="row" style="text-align: center">
+        <h1 class="head">Connecting Multi-modal Contrastive Representations</h1>
+        <div class="authors">Anonymous Author(s)</div>
+      </div>
+    <div class="bigcontainer">
+    <div class="container">
+   <div class="line">
+        <div class="right">
+            <a href='./index.html'><button class="unselected">Comparisons</button></a>
+            <a href='./more_example_a2i.html'><button class="selected">More Examples</button></a>
+        </div>
+    </div>
+          <div class="guideme">
+            Select a Task
+            <div style="color: black; font-size: 20px; font-weight: 400">
+            </div>
+          </div>
+        <a href='./more_example_a2i.html'><button class="little_selected">Audio to Image Retrieval</button></a>
+        <a href='./more_example_i2a.html'><button class="little_unselected">Image to Audio Retrieval</button></a>
+
+        <div class="guideme"> Using audio to retrieve image </div>
+        <table class="table table-responsive">
+            <tbody>
+            
+            <div class="example">
+                <div class="exp_audio" id="audio1">
+                    <div class="audio_discribe" id="audio1">Clock</div>
+                    <audio controls="" style="width: 250px;"><source src="./exp_a2i/audio/audio1.wav" type="audio/mpeg"></audio>
+                </div>
+                <img class="exp_image_style" src="./exp_a2i/images/audio1_ours0.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio1_ours1.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio1_ours2.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio1_ours3.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio1_ours4.jpg"></img>
+            </div>
+            <hr class="exp_line"></hr>
+
+            <div class="example">
+                <div class="exp_audio" id="audio2">
+                    <div class="audio_discribe" id="audio2">Diving</div>
+                    <audio controls="" style="width: 250px;"><source src="./exp_a2i/audio/audio2.wav" type="audio/mpeg"></audio>
+                </div>
+                <img class="exp_image_style" src="./exp_a2i/images/audio2_ours0.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio2_ours1.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio2_ours2.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio2_ours3.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio2_ours4.jpg"></img>           
+            </div>            
+            <hr class="exp_line"></hr>    
+            <div class="example">
+                <div class="exp_audio" id="audio3">
+                    <div class="audio_discribe" id="audio3">Beach</div>
+                    <audio controls="" style="width: 250px;"><source src="./exp_a2i/audio/audio3.wav" type="audio/mpeg"></audio>
+                </div>
+                <img class="exp_image_style" src="./exp_a2i/images/audio3_ours0.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio3_ours1.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio3_ours2.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio3_ours3.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio3_ours4.jpg"></img>              
+            </div>
+            <hr class="exp_line"></hr>
+            <div class="example">
+                    <div class="exp_audio" id="audio4">
+                        <div class="audio_discribe" id="audio4">Seagull</div>
+                        <audio controls="" style="width: 250px;"><source src="./exp_a2i/audio/audio4.wav" type="audio/mpeg"></audio>
+                    </div>
+                    <img class="exp_image_style" src="./exp_a2i/images/audio4_ours0.jpg"></img>
+                    <img class="exp_image_style" src="./exp_a2i/images/audio4_ours1.jpg"></img>
+                    <img class="exp_image_style" src="./exp_a2i/images/audio4_ours2.jpg"></img>
+                    <img class="exp_image_style" src="./exp_a2i/images/audio4_ours3.jpg"></img>
+                    <img class="exp_image_style" src="./exp_a2i/images/audio4_ours4.jpg"></img>                
+            </div>
+            <hr class="exp_line"></hr>
+            <div class="example">
+                <div class="exp_audio" id="audio5">
+                    <div class="audio_discribe" id="audio5">Shooting</div>
+                    <audio controls="" style="width: 250px;"><source src="./exp_a2i/audio/audio5.wav" type="audio/mpeg"></audio>
+                </div>
+                <img class="exp_image_style" src="./exp_a2i/images/audio5_ours0.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio5_ours1.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio5_ours2.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio5_ours3.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio5_ours4.jpg"></img>              
+            </div>
+            <hr class="exp_line"></hr>
+            <div class="example">
+                <div class="exp_audio" id="audio6">
+                    <div class="audio_discribe" id="audio6">Piano</div>
+                    <audio controls="" style="width: 250px;"><source src="./exp_a2i/audio/audio6.wav" type="audio/mpeg"></audio>
+                </div>
+                <img class="exp_image_style" src="./exp_a2i/images/audio6_ours0.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio6_ours1.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio6_ours2.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio6_ours3.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio6_ours4.jpg"></img>                
+            </div>
+            <hr class="exp_line"></hr>
+            <div class="example">
+                <div class="exp_audio" id="audio7">
+                    <div class="audio_discribe" id="audio7">Fire</div>
+                    <audio controls="" style="width: 250px;"><source src="./exp_a2i/audio/audio7.wav" type="audio/mpeg"></audio>
+                </div>
+                <img class="exp_image_style" src="./exp_a2i/images/audio7_ours0.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio7_ours1.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio7_ours2.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio7_ours3.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio7_ours4.jpg"></img>                 
+            </div>
+            <hr class="exp_line"></hr>
+            <div class="example">
+                <div class="exp_audio" id="audio8">
+                    <div class="audio_discribe" id="audio8">Alarm</div>
+                    <audio controls="" style="width: 250px;"><source src="./exp_a2i/audio/audio8.wav" type="audio/mpeg"></audio>
+                </div>
+                <img class="exp_image_style" src="./exp_a2i/images/audio8_ours0.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio8_ours1.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio8_ours2.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio8_ours3.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio8_ours4.jpg"></img>                 
+            </div>
+            <hr class="exp_line"></hr>
+            <div class="example">
+                <div class="exp_audio" id="audio9">
+                    <div class="audio_discribe" id="audio9">Bell</div>
+                    <audio controls="" style="width: 250px;"><source src="./exp_a2i/audio/audio9.wav" type="audio/mpeg"></audio>
+                </div>
+                <img class="exp_image_style" src="./exp_a2i/images/audio9_ours0.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio9_ours1.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio9_ours2.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio9_ours3.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio9_ours4.jpg"></img>              
+            </div>
+            <hr class="exp_line"></hr>
+            <div class="example">
+                <div class="exp_audio" id="audio10">
+                    <div class="audio_discribe" id="audio10">Singing Kid</div>
+                    <audio controls="" style="width: 250px;"><source src="./exp_a2i/audio/audio10.wav" type="audio/mpeg"></audio>
+                </div>
+                <img class="exp_image_style" src="./exp_a2i/images/audio10_ours0.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio10_ours1.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio10_ours2.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio10_ours3.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio10_ours4.jpg"></img>               
+            </div>
+
+            <hr class="exp_line"></hr>
+            <div class="example">
+                <div class="exp_audio" id="audio11">
+                    <div class="audio_discribe" id="audio11">Plane Engine</div>
+                    <audio controls="" style="width: 250px;"><source src="./exp_a2i/audio/audio11.wav" type="audio/mpeg"></audio>
+                </div>
+                <img class="exp_image_style" src="./exp_a2i/images/audio11_ours0.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio11_ours1.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio11_ours2.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio11_ours3.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio11_ours4.jpg"></img>               
+            </div>
+
+            <hr class="exp_line"></hr>
+            <div class="example">
+                <div class="exp_audio" id="audio12">
+                    <div class="audio_discribe" id="audio12">Fork Singing</div>
+                    <audio controls="" style="width: 250px;"><source src="./exp_a2i/audio/audio12.wav" type="audio/mpeg"></audio>
+                </div>
+                <img class="exp_image_style" src="./exp_a2i/images/audio12_ours0.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio12_ours1.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio12_ours2.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio12_ours3.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio12_ours4.jpg"></img>               
+            </div>
+
+
+            <hr class="exp_line"></hr>
+            <div class="example">
+                <div class="exp_audio" id="audio13">
+                    <div class="audio_discribe" id="audio13">Lecture</div>
+                    <audio controls="" style="width: 250px;"><source src="./exp_a2i/audio/audio13.wav" type="audio/mpeg"></audio>
+                </div>
+                <img class="exp_image_style" src="./exp_a2i/images/audio13_ours0.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio13_ours1.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio13_ours2.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio13_ours3.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio13_ours4.jpg"></img>               
+            </div>
+
+
+            <hr class="exp_line"></hr>
+            <div class="example">
+                <div class="exp_audio" id="audio14">
+                    <div class="audio_discribe" id="audio14">Marching Band</div>
+                    <audio controls="" style="width: 250px;"><source src="./exp_a2i/audio/audio14.wav" type="audio/mpeg"></audio>
+                </div>
+                <img class="exp_image_style" src="./exp_a2i/images/audio14_ours0.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio14_ours1.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio14_ours2.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio14_ours3.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio14_ours4.jpg"></img>               
+            </div>
+
+
+            <hr class="exp_line"></hr>
+            <div class="example">
+                <div class="exp_audio" id="audio15">
+                    <div class="audio_discribe" id="audio15">Racing Car</div>
+                    <audio controls="" style="width: 250px;"><source src="./exp_a2i/audio/audio15.wav" type="audio/mpeg"></audio>
+                </div>
+                <img class="exp_image_style" src="./exp_a2i/images/audio15_ours0.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio15_ours1.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio15_ours2.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio15_ours3.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio15_ours4.jpg"></img>               
+            </div>
+
+            <hr class="exp_line"></hr>
+            <div class="example">
+                <div class="exp_audio" id="audio16">
+                    <div class="audio_discribe" id="audio16">Excavator</div>
+                    <audio controls="" style="width: 250px;"><source src="./exp_a2i/audio/audio16.wav" type="audio/mpeg"></audio>
+                </div>
+                <img class="exp_image_style" src="./exp_a2i/images/audio16_ours0.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio16_ours1.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio16_ours2.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio16_ours3.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio16_ours4.jpg"></img>               
+            </div>
+
+            <hr class="exp_line"></hr>
+            <div class="example">
+                <div class="exp_audio" id="audio17">
+                    <div class="audio_discribe" id="audio17">Dogs</div>
+                    <audio controls="" style="width: 250px;"><source src="./exp_a2i/audio/audio17.wav" type="audio/mpeg"></audio>
+                </div>
+                <img class="exp_image_style" src="./exp_a2i/images/audio17_ours0.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio17_ours1.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio17_ours2.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio17_ours3.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio17_ours4.jpg"></img>               
+            </div>
+
+            <hr class="exp_line"></hr>
+            <div class="example">
+                <div class="exp_audio" id="audio18">
+                    <div class="audio_discribe" id="audio18">Children's Chorus</div>
+                    <audio controls="" style="width: 250px;"><source src="./exp_a2i/audio/audio18.wav" type="audio/mpeg"></audio>
+                </div>
+                <img class="exp_image_style" src="./exp_a2i/images/audio18_ours0.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio18_ours1.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio18_ours2.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio18_ours3.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio18_ours4.jpg"></img>               
+            </div>
+
+            <hr class="exp_line"></hr>
+            <div class="example">
+                <div class="exp_audio" id="audio19">
+                    <div class="audio_discribe" id="audio19">Church</div>
+                    <audio controls="" style="width: 250px;"><source src="./exp_a2i/audio/audio19.wav" type="audio/mpeg"></audio>
+                </div>
+                <img class="exp_image_style" src="./exp_a2i/images/audio19_ours0.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio19_ours1.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio19_ours2.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio19_ours3.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio19_ours4.jpg"></img>               
+            </div>
+
+            <hr class="exp_line"></hr>
+            <div class="example">
+                <div class="exp_audio" id="audio20">
+                    <div class="audio_discribe" id="audio20">Sheep and Goose</div>
+                    <audio controls="" style="width: 250px;"><source src="./exp_a2i/audio/audio20.wav" type="audio/mpeg"></audio>
+                </div>
+                <img class="exp_image_style" src="./exp_a2i/images/audio20_ours0.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio20_ours1.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio20_ours2.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio20_ours3.jpg"></img>
+                <img class="exp_image_style" src="./exp_a2i/images/audio20_ours4.jpg"></img>               
+            </div>
+        </table>
+        </div>
+      </div>
+    
+   </body>
+</html>
+    

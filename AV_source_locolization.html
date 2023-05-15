@@ -1,0 +1,222 @@
+
+    <html>
+    <head>
+    
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,900' rel='stylesheet' type='text/css'>
+    <link href="style.css" rel="stylesheet">
+    <!--fonts google-->
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+
+    <script src="./AVSL.js"></script>
+
+    
+   
+<title>Connecting Multi-modal Contrastive Representations </title>
+</head>
+<body>
+
+    <div id="header" class="container-fluid">
+        <div class="row" style="text-align: center;">
+
+            <h1 class="head">Connecting Multi-modal Contrastive Representations </h1>
+            <div class="authors">Anonymous Author(s)</div>
+    </div>
+    <div class="bigcontainer">
+    <div class="container" id="abstractdiv">
+         <div class="line">
+    <div class="right">
+        <a href='./index.html'><button class="selected">Comparisons</button></a>
+        <a href='./more_example_a2i.html'><button class="unselected">More Examples</button></a>
+    </div>
+</div>
+
+        <div class="guideme">
+            Select a Task
+            <div style="color: black; font-size: 20px; font-weight: 400">
+            </div>
+          </div>
+        <a href='./index.html'><button class="little_unselected">Audio to Image Retrieval</button></a>
+        <a href='./demo_i2a.html'><button class="little_unselected">Image to Audio Retrieval</button></a>
+        <a href='./AV_source_locolization.html'><button class="little_selected">Audio-Visual Source Locolization</button></a>
+
+
+        <div class="task"></h1>
+        <div class="guideme"> Select an Audio<div style="color: black;font-size: 20px; font-weight: 400;">(click audio)</div></div>
+
+        <table class="table table-responsive">
+            <tbody>
+            <div class="AudioIcons">
+            <div class="audioIcon">
+            
+                <div class="text-center audiogroup" id="audio1">
+                    <div class="audio_discribe" id="audio1">Bell</div>
+                    <audio controls=""><source src="./AVSL/audio/audio1.wav" type="audio/mpeg"></audio>
+                </div>              
+                
+                <div class="text-center audiogroup" id="audio2">
+                    <div class="audio_discribe" id="audio2">Sewing Machine</div>
+                    <audio controls=""><source src="./AVSL/audio/audio2.wav" type="audio/mpeg"></audio>
+                </div>                
+                
+                <div class="text-center audiogroup" id="audio3">
+                    <div class="audio_discribe" id="audio3">Racing Car</div>
+                    <audio controls=""><source src="./AVSL/audio/audio3.wav" type="audio/mpeg"></audio>
+                </div>                   
+            </div>
+            
+            <div class="audioIcon">
+            
+                <div class="text-center audiogroup" id="audio4">
+                    <div class="audio_discribe" id="audio4">Cartoon Truck</div>
+                    <audio controls=""><source src="./AVSL/audio/audio4.wav" type="audio/mpeg"></audio>
+                </div>              
+                
+                <div class="text-center audiogroup" id="audio5">
+                    <div class="audio_discribe" id="audio5">Tractor</div>
+                    <audio controls=""><source src="./AVSL/audio/audio5.wav" type="audio/mpeg"></audio>
+                </div>                
+                
+                <div class="text-center audiogroup" id="audio6">
+                    <div class="audio_discribe" id="audio6">Air Blower</div>
+                    <audio controls=""><source src="./AVSL/audio/audio6.wav" type="audio/mpeg"></audio>
+                </div>                   
+                
+            </div>
+
+            <div class="audioIcon">
+
+                <div class="text-center audiogroup" id="audio7">
+                    <div class="audio_discribe" id="audio7">Cello</div>
+                    <audio controls=""><source src="./AVSL/audio/audio7.wav" type="audio/mpeg"></audio>
+                </div>              
+                
+                <div class="text-center audiogroup" id="audio8">
+                    <div class="audio_discribe" id="audio8">Dog</div>
+                    <audio controls=""><source src="./AVSL/audio/audio8.wav" type="audio/mpeg"></audio>
+                </div>                
+                
+                <div class="text-center audiogroup" id="audio9">
+                    <div class="audio_discribe" id="audio9">Scratch</div>
+                    <audio controls=""><source src="./AVSL/audio/audio9.wav" type="audio/mpeg"></audio>
+                </div>                   
+                
+            </div>
+
+            <div class="audioIcon">
+
+                <div class="text-center audiogroup" id="audio10">
+                    <div class="audio_discribe" id="audio10">Cat</div>
+                    <audio controls=""><source src="./AVSL/audio/audio10.wav" type="audio/mpeg"></audio>
+                </div>              
+                
+                <div class="text-center audiogroup" id="audio11">
+                    <div class="audio_discribe" id="audio11">Bird</div>
+                    <audio controls=""><source src="./AVSL/audio/audio11.wav" type="audio/mpeg"></audio>
+                </div>                
+                
+                <div class="text-center audiogroup" id="audio12">
+                    <div class="audio_discribe" id="audio12">Popcorn</div>
+                    <audio controls=""><source src="./AVSL/audio/audio12.wav" type="audio/mpeg"></audio>
+                </div>                   
+                
+            </div>
+
+            <div class="audioIcon">
+
+                <div class="text-center audiogroup" id="audio13">
+                    <div class="audio_discribe" id="audio13">Saxophone</div>
+                    <audio controls=""><source src="./AVSL/audio/audio13.wav" type="audio/mpeg"></audio>
+                </div>              
+                
+                <div class="text-center audiogroup" id="audio14">
+                    <div class="audio_discribe" id="audio14">Chorus</div>
+                    <audio controls=""><source src="./AVSL/audio/audio14.wav" type="audio/mpeg"></audio>
+                </div>                
+                
+                <div class="text-center audiogroup" id="audio15">
+                    <div class="audio_discribe" id="audio15">Explosion</div>
+                    <audio controls=""><source src="./AVSL/audio/audio15.wav" type="audio/mpeg"></audio>
+                </div>                   
+                
+            </div>
+            <div class="audioIcon">
+
+                <div class="text-center audiogroup" id="audio16">
+                    <div class="audio_discribe" id="audio16">Cello</div>
+                    <audio controls=""><source src="./AVSL/audio/audio16.wav" type="audio/mpeg"></audio>
+                </div>              
+                
+                <div class="text-center audiogroup" id="audio17">
+                    <div class="audio_discribe" id="audio17">Puppy</div>
+                    <audio controls=""><source src="./AVSL/audio/audio17.wav" type="audio/mpeg"></audio>
+                </div>                
+                
+                <div class="text-center audiogroup" id="audio18">
+                    <div class="audio_discribe" id="audio18">Bird</div>
+                    <audio controls=""><source src="./AVSL/audio/audio18.wav" type="audio/mpeg"></audio>
+                </div>                   
+                
+            </div>
+
+            <div class="audioIcon">
+
+                <div class="text-center audiogroup" id="audio19">
+                    <div class="audio_discribe" id="audio19">Cartoon Sheep</div>
+                    <audio controls=""><source src="./AVSL/audio/audio19.wav" type="audio/mpeg"></audio>
+                </div>              
+                
+                <div class="text-center audiogroup" id="audio20">
+                    <div class="audio_discribe" id="audio20">Bird</div>
+                    <audio controls=""><source src="./AVSL/audio/audio20.wav" type="audio/mpeg"></audio>
+                </div>                
+                
+                <div class="text-center audiogroup" id="audio21">
+                    <div class="audio_discribe" id="audio21">Electronic Organ</div>
+                    <audio controls=""><source src="./AVSL/audio/audio21.wav" type="audio/mpeg"></audio>
+                </div>                   
+                
+            </div>
+        </div>
+            <div class="guideme">See the Results</div>
+            <div class="block1">
+            <h3 id="GroundTruth"><br></h3>
+            <div class ="image_style">
+                <img class="image" src=""></img>
+            </div>
+            </div>
+            
+            <div class="block1">
+            <h3 id="AudioCLIP"><br></h3>
+            <div class ="image_style">
+                <img class="image" src=""></img>
+            </div>
+            </div>
+
+            <div class="block1">
+            <h3 id="WAV2CLIP"><br></h3>
+            <div class ="image_style">
+                <img class="image" src=""></img>
+            </div>
+            </div> 
+            
+            <div class="block1">
+            <h3 id="Ours"><br></h3>
+            <div class ="image_style">
+                <img class="image" src=""></img>
+            </div>
+            </div>
+
+            </tbody>
+        </table>
+    </div>
+    
+   
+
+    </div>
+    </div>
+   </body>
+</html>
+    
