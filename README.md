@@ -1,4 +1,4 @@
-### Hi there 👋
+This is the source code of the Demo website of **<Connecting Multi-modal Contrastive Representations>**
 
 <!--
 **C-MCR/C-MCR** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
